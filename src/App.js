@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Selection from './components/Selection';
 import WhyRevive from './components/WhyRevive';
 import Footer from './components/Footer';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
