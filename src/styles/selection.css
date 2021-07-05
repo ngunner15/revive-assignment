@@ -1,0 +1,56 @@
+.selection {
+  padding: 2rem 1rem 0rem 1rem;
+}
+
+.title {
+  display: flex;
+}
+
+.number {
+  align-self: center;
+  margin-right: 1rem;
+}
+
+.select{
+  display: flex;
+  text-transform: uppercase;
+}
+
+.dropdownMenu {
+  width: 119px;
+  margin-left: 1.125rem;
+}
+
+.price {
+  display: flex;
+  text-transform: uppercase;
+}
+
+.item {
+  display: flex;
+  margin-top: 95px;
+}
+
+.box {
+  display: flex;
+}
+
+.box img {
+  aspect-ratio: 1/1;
+  width: 80%;
+  min-width: 100px;
+  padding: 0.25rem;
+}
+
+.continue {
+  background-color: #FEE343;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: none;
+}
+
+.email {
+  font-size: 14px;
+  white-space: nowrap;
+}
