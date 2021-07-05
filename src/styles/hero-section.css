@@ -1,0 +1,18 @@
+.hero {
+  background: url("../images/image1.png");
+  background-color: #f6f4f5e5;
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 326px;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+p {
+  max-width: 60%;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 30px;
+}
