@@ -23,7 +23,7 @@ export default function Selection(props) {
 
   return (
     <div className="selection">
-      <div className="title">
+      <div className="selection-title">
         <Number number="1" className="number" />
         <h3>PICK YOUR QUANTITY</h3>
       </div>
