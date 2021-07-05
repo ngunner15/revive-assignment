@@ -1,19 +1,57 @@
+import React, { useState } from 'react';
 import Number from './Number';
+import Select from 'react-select';
+import '../styles/selection.css';
+
+const options = [
+  { label: '48', value: '48' },
+  { label: '72', value: '72' },
+  { label: '96', value: '96' },
+  { label: '120', value: '120' },
+  { label: '144', value: '144' },
+  { label: '168', value: '168' }
+];
 
 export default function Selection(props) {
-  return(
-    <div>
-      <Number number="1" />
-      <h3>PICK YOUR QUANTITY</h3>
-      <h4>Quantity:</h4>
-      <h4>Price per cup: <strong>$5.49</strong></h4>
-      <Number number="2" />
-      <h3>CHOOSE YOUR ITEMS</h3>
-      <img src="box/rect1.png" alt="fruity box" />
-      <img src="box/rect2.png" alt="best seller box" />
-      <img src="box/rect3.png" alt="fit box" />
-      <button className="continue">CONTINUE</button>
-      <p>For bulk orders over 288 cups, please email: wholesale@revivesuperfoods.com</p>
+
+  const [selectedOption, setSelectedOption] = useState();
+
+  const handleChange = selectedOption => {
+    setSelectedOption({ selectedOption });
+    console.log(`Option selected:`, selectedOption);
+  };
+
+  return (
+    <div className="selection">
+      <div className="title">
+        <Number number="1" className="number" />
+        <h3>PICK YOUR QUANTITY</h3>
+      </div>
+      <div className="select">
+        <p>Quantity:</p>
+        <Select
+          value={selectedOption}
+          onChange={handleChange}
+          options={options}
+          defaultValue='48'
+          placeholder='48'
+          className="dropdownMenu"
+        />
+      </div>
+      <div className="price">
+        <p>Price per cup: <strong>$5.49</strong></p>
+      </div>
+      <div className="item">
+        <Number number="2" />
+        <h3>CHOOSE YOUR ITEMS</h3>
+      </div>
+      <div className="box">
+        <img src="box/rect1.png" alt="fruity box" />
+        <img src="box/rect2.png" alt="best seller box" />
+        <img src="box/rect3.png" alt="fit box" />
+      </div>
+      <button className="continue"><strong>Continue</strong></button>
+      <p className="email">For bulk orders over 288 cups, please email:<br/> <u>wholesale@revivesuperfoods.com</u></p>
       <img src="cups.png" alt="Variety Cups" />
     </div>
   );
