@@ -1,9 +1,18 @@
+import HeroSection from './components/HeroSection';
+import Header from './components/Header';
+import Selection from './components/Selection';
+import WhyRevive from './components/WhyRevive';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Revive App</h1>
+      <Header />
+      <HeroSection />
+      <Selection />
+      <WhyRevive />
+      <Footer />
     </div>
   );
 }
