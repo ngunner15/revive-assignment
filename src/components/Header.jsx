@@ -1,9 +1,11 @@
+import '../styles/header.css';
+
 export default function Header(props) {
   return(
-    <div>
+    <div className="header">
+      <span className="menu" />
       <img src="logo_header.png" alt="Revive Superfoods" />
-      <img className="menu" src="/logo/menu.png" alt="Revive SuperFoods" />
-      <img className="logo" src="/logo/login.png" alt="Login" />
+      <span className="login" />
     </div>
   );
 }
