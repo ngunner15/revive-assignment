@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.0625rem 1.8125rem;
+}
+
+.menu {
+  align-self: center;
+  background-image: url("../images/menu.png");
+  background-repeat: no-repeat;
+  background-size: 28.5px;
+  width: 32px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.login {
+  align-self: center;
+  background-image: url("../images/login.png");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
