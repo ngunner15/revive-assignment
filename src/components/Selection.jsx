@@ -27,7 +27,7 @@ export default function Selection(props) {
         <Number number="1" className="number" />
         <h3>PICK YOUR QUANTITY</h3>
       </div>
-      <div className="select">
+      <div className="selection-dropdown">
         <p>Quantity:</p>
         <Select
           value={selectedOption}
@@ -38,20 +38,20 @@ export default function Selection(props) {
           className="dropdownMenu"
         />
       </div>
-      <div className="price">
+      <div className="selection-price">
         <p>Price per cup: <strong>$5.49</strong></p>
       </div>
-      <div className="item">
+      <div className="selection-item">
         <Number number="2" />
         <h3>CHOOSE YOUR ITEMS</h3>
       </div>
-      <div className="box">
+      <div className="selection-box">
         <img src="box/rect1.png" alt="fruity box" />
         <img src="box/rect2.png" alt="best seller box" />
         <img src="box/rect3.png" alt="fit box" />
       </div>
-      <button className="continue"><strong>Continue</strong></button>
-      <p className="email">For bulk orders over 288 cups, please email:<br/> <u>wholesale@revivesuperfoods.com</u></p>
+      <button className="selection-button"><strong>Continue</strong></button>
+      <p className="selection-email">For bulk orders over 288 cups, please email:<br/> <u>wholesale@revivesuperfoods.com</u></p>
       <img src="cups.png" alt="Variety Cups" />
     </div>
   );
