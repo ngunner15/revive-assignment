@@ -1,0 +1,63 @@
+.payment {
+  padding: 0 1rem;
+}
+
+.payment img {
+  background: #F2F2F2;
+}
+
+.payment-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.payment-buttons button {
+  border-radius: 15px;
+  border: none;
+  padding: 15px 15px;
+  width: 100px;
+  height: 50px;
+}
+
+.credit-btn {
+  white-space: nowrap;
+  background: #FEE343;
+}
+
+.credit-card-input {
+  display: flex;
+  border: 2px solid #A0A0A0;
+  border-radius: 15px;
+}
+
+.credit-card-input input {
+  border: none;
+}
+
+.credit-card-input button {
+  align-self: center;
+  border: none;
+  border-radius: 6px;
+  width: 44px;
+  height: 24px;
+}
+
+.credit-card-input button:first-of-type {
+  margin-right: 0.25rem;
+  margin-left: 0.875rem;
+}
+
+.credit-card-input input:focus {
+  outline: none;
+}
+
+.credit-card-input #credit-card {
+  border: none;
+  width: 45%;
+}
+
+.credit-card-input #expiry-date {
+  border: none;
+  width: 20%;
+}

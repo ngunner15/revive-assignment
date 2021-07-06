@@ -1,0 +1,32 @@
+.shipping {
+  padding: 0 1rem;
+}
+
+.shipping input {
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.labels label {
+  width: 48%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shipping .inputs input {
+  width: 48%;
+}

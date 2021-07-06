@@ -1,0 +1,58 @@
+.review {
+  padding: 0 1rem;
+  margin-bottom: 3.125rem;
+}
+
+.review-info {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #D6D6D6;
+}
+
+.review-price {
+  margin-top: 1.5rem;
+}
+
+.review-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.review-confirmation {
+  display: flex;
+}
+
+.review-confirmation input[type="checkbox"] {
+  align-self: center;
+  width: 18px;
+  aspect-ratio: 1/1;
+  border: 1px solid #A0A0A0;
+  border-radius: 5px;
+}
+
+.review-confirmation p {
+  align-self: center;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 0.875rem 7.938rem;
+  border-radius: 15px;
+  margin-bottom: 1.438rem;
+  font-size: 16px;
+}
+
+/* .review-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+} */
+
+.review-msg p {
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 1rem;
+}

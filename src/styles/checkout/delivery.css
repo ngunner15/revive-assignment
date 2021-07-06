@@ -1,0 +1,16 @@
+.delivery {
+  padding: 0 1rem;
+}
+
+.delivery input {
+  margin-bottom: 0.5rem;
+}
+
+.delivery select {
+  width: 100%;
+  height: 45px;
+  border-color: #A0A0A0;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+}
