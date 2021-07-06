@@ -6,6 +6,7 @@ import Delivery from './Delivery';
 import Review from './Review';
 import Footer from '../Footer';
 import '../../styles/App.css';
+import '../../styles/checkout/checkout.css';
 
 function Checkout() {
   return (

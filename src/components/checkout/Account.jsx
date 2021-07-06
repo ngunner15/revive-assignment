@@ -1,8 +1,9 @@
 import Number from '../Number';
+import '../../styles/checkout/account.css';
 
 export default function Account(props) {
   return (
-    <div>
+    <div className="account">
       <h2>CHECKOUT</h2>
       <div className="title">
         <Number number="1" className="number" />

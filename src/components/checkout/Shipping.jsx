@@ -1,8 +1,9 @@
 import Number from '../Number';
+import '../../styles/checkout/shipping.css';
 
 export default function Account(props) {
   return (
-    <div>
+    <div className="shipping">
       <div className="title">
         <Number number="3"  className="number" />
         <h3>YOUR SHIPPING ADDRESS</h3>

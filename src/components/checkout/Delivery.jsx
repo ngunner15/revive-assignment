@@ -1,4 +1,5 @@
 import Number from '../Number';
+import '../../styles/checkout/delivery.css';
 
 export default function Delivery(props) {
 
@@ -10,8 +11,7 @@ export default function Delivery(props) {
                   '-' + date.getDate().toString().padStart(2, 0);
 
   return (
-    <div>
-      <h2>CHECKOUT</h2>
+    <div className="delivery">
       <div className="title">
         <Number number="4" className="number" />
         <h3>CHOOSE YOUR DELIVERY DAY</h3>
@@ -22,6 +22,7 @@ export default function Delivery(props) {
       />
       <label htmlFor="delivery">Delivery Instructions</label>
       <select name="delivery" id="delivery">
+        <option value="" disabled selected hidden>None</option>
         <option value="1">Leave with concierge</option>
         <option value="2">Leave on front porch</option>
         <option value="3">Leave at front door</option>
