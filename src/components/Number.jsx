@@ -1,4 +1,4 @@
-import '../styles/number.css'
+import '../styles/number.css';
 
 export default function Number({ number }) {
   return (
