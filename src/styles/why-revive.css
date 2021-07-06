@@ -1,15 +1,19 @@
+.why-revive {
+  margin-bottom: 3.125rem;
+}
+
 .why-revive-title {
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
 }
 
-p {
+.why-revive p {
   max-width: 90%;
 }
 
 .pusateris {
-  margin: 6.5rem 0;
+  margin: 6.35rem 0;
   display: flex;
   flex-direction: column;
 }
