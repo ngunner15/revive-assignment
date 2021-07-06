@@ -11,9 +11,14 @@
   margin-right: 1rem;
 }
 
-.select{
+.selection-dropdown{
   display: flex;
   text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.selection-dropdown p {
+  align-self: center;
 }
 
 .dropdownMenu {
@@ -21,28 +26,28 @@
   margin-left: 1.125rem;
 }
 
-.price {
+.selection-price {
   display: flex;
   text-transform: uppercase;
 }
 
-.item {
+.selection-item {
   display: flex;
   margin-top: 95px;
 }
 
-.box {
+.selection-box {
   display: flex;
 }
 
-.box img {
+.selection-box img {
   aspect-ratio: 1/1;
   width: 80%;
   min-width: 100px;
   padding: 0.25rem;
 }
 
-.continue {
+.selection-button {
   background-color: #FEE343;
   padding: 10px 35px;
   text-transform: uppercase;
@@ -50,7 +55,7 @@
   border: none;
 }
 
-p.email {
+.selection-email {
   font-size: 14px;
   white-space: nowrap;
   margin: 1.5rem 0 2rem 0;
