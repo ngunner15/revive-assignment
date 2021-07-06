@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import Number from './Number';
 import Select from 'react-select';
 import '../styles/selection.css';
@@ -20,6 +21,12 @@ export default function Selection(props) {
     setSelectedOption({ selectedOption });
     console.log(`Option selected:`, selectedOption);
   };
+
+  let history = useHistory();
+  const redirect = () => {
+    history.push('/checkout');
+  }
+
 
   return (
     <div className="selection">
@@ -50,7 +57,7 @@ export default function Selection(props) {
         <img src="box/rect2.png" alt="best seller box" />
         <img src="box/rect3.png" alt="fit box" />
       </div>
-      <button className="selection-button"><strong>Continue</strong></button>
+      <button className="selection-button" onClick={redirect}><strong>Continue</strong></button>
       <p className="selection-email">For bulk orders over 288 cups, please email:<br/> <u>wholesale@revivesuperfoods.com</u></p>
       <img src="cups.png" alt="Variety Cups" />
     </div>
