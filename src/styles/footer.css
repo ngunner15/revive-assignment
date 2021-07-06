@@ -1,3 +1,65 @@
 .footer {
+  padding-top: 3.125rem;
+}
+
+.email-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.875rem;
+}
+
+.email-block input {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.email-block-icons {
+  display: flex;
+  margin-top: 1.125rem;
+}
+
+.email-block-icons img {
+  padding: 0;
+  margin: 0.43rem;
+  aspect-ratio: 1/1;
+  max-width: 18px;
+}
+
+.email-block-icons img:first-of-type {
+  background: black;
+}
+
+.email-block-icons img:last-of-type {
+  background: black;
+}
+
+.footer-content {
   padding: 0 1rem;
+  margin-top: 1.563rem;
+}
+
+.footer-content p {
+  font-size: 16px;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.188rem 0;
+}
+
+.footer-block p {
+  font-size: 16px;
+}
+
+.canada-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.875rem;
+}
+
+footer {
+  padding: 1.063rem 4.65rem;
+  background: #F1F0F0;
+  color: #A9A9A9;
 }
