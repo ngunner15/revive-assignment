@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Selection from './components/Selection';
 import WhyRevive from './components/WhyRevive';
 import Footer from './components/Footer';
-import Main from './components/checkout/Main';
+import Checkout from './components/checkout/Checkout';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './styles/App.css';
@@ -16,7 +16,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path='/checkout'>
-          <Main />
+          <Checkout />
         </Route>
       </Switch>
     </Router>
