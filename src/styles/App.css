@@ -21,3 +21,14 @@ p {
   font-size: 14px;
   margin: 0;
 }
+
+.title {
+  display: flex;
+}
+
+.continue-button {
+  background-color: #FEE343;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: none;
+}
