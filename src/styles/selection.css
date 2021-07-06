@@ -2,10 +2,6 @@
   padding: 2rem 1rem 0rem 1rem;
 }
 
-.selection-title {
-  display: flex;
-}
-
 .number {
   align-self: center;
   margin-right: 1rem;
@@ -29,11 +25,7 @@
 .selection-price {
   display: flex;
   text-transform: uppercase;
-}
-
-.selection-item {
-  display: flex;
-  margin-top: 95px;
+  margin-bottom: 5.938rem;
 }
 
 .selection-box {
@@ -48,11 +40,7 @@
 }
 
 .selection-button {
-  background-color: #FEE343;
   padding: 10px 35px;
-  text-transform: uppercase;
-  border-radius: 2px;
-  border: none;
 }
 
 .selection-email {
