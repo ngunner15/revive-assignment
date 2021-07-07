@@ -55,8 +55,13 @@ h2 {
     margin-left: 31rem;
   }
 
+  .hero h2 {
+    font-size: 48px;
+  }
+
   .hero p {
     max-width: 39.25rem;
+    font-size: 18px;
   }
 
 }
