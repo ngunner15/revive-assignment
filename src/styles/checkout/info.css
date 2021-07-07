@@ -1,0 +1,39 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  margin-bottom: 3.438rem;
+}
+
+.info-block:last-of-type {
+  border-bottom: 1px solid #D6D6D6;
+  padding-bottom: 1.973rem;
+}
+
+@media only screen and (min-width : 768px){
+  
+  .info {
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1.973rem;
+    border-bottom: 1px solid #D6D6D6;
+  }
+
+  .info-block:last-of-type {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  .info img {
+    margin: 0 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width : 1920px){
+
+  .info img {
+    margin: 0 6.625rem;
+  }
+
+}

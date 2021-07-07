@@ -1,5 +1,8 @@
 .header-checkout {
-  padding: 1.0625rem 1rem;
+  padding: 1rem 1rem;
+  max-width: 39.625rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header-checkout img {
@@ -12,6 +15,8 @@
 .header-options {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #D6D6D6;
 }
 
 .header-options span {

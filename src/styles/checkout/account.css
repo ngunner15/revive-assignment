@@ -1,7 +1,24 @@
 .account {
   padding: 0 1rem;
+  max-width: 29.375rem;
 }
 
 .account #email {
   margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width : 1280px){
+
+  .account {
+    margin-left: 7rem;
+  }
+
+}
+
+@media only screen and (min-width : 1920px){
+
+  .account {
+    margin-left: 27rem;
+  }
+
 }

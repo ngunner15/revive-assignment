@@ -1,6 +1,7 @@
 .review {
   padding: 0 1rem;
-  margin-bottom: 3.125rem;
+  margin-bottom: 1.5rem;
+  max-width: 29.375rem;
 }
 
 .review-info {
@@ -55,4 +56,25 @@
   width: 100%;
   font-size: 12px;
   margin-bottom: 1rem;
+}
+
+@media only screen and (min-width : 1280px){
+
+  .review {
+    position: absolute;
+    top: 15.15rem;
+    right: 7rem;
+    border: 3px solid #252525;
+    border-radius: 15px;
+  }
+
+}
+
+@media only screen and (min-width : 1920px){
+
+  .review {
+    position: absolute;
+    right: 27rem;
+  }
+
 }

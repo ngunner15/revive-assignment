@@ -1,5 +1,6 @@
 .payment {
   padding: 0 1rem;
+  max-width: 29.375rem;
 }
 
 .payment img {
@@ -60,4 +61,20 @@
 .credit-card-input #expiry-date {
   border: none;
   width: 20%;
+}
+
+@media only screen and (min-width : 1280px){
+
+  .payment {
+    margin-left: 7rem;
+  }
+
+}
+
+@media only screen and (min-width : 1920px){
+
+  .payment {
+    margin-left: 27rem;
+  }
+
 }
