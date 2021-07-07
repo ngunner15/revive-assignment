@@ -59,7 +59,6 @@ export default function Selection(props) {
       </div>
       <button className="selection-button continue-button" onClick={redirect}><strong>Continue</strong></button>
       <p className="selection-email">For bulk orders over 288 cups, please email:<br/> <u>wholesale@revivesuperfoods.com</u></p>
-      <img src="cups.png" alt="Variety Cups" />
     </div>
   );
 }
