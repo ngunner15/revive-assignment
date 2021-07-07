@@ -28,6 +28,10 @@
   margin-top: 1.563rem;
 }
 
+.footer-logo {
+  margin-left: -0.75rem;;
+}
+
 .footer-content p {
   white-space: nowrap;
   font-size: 16px;
@@ -48,6 +52,14 @@
   font-size: 16px;
 }
 
+.footer-link {
+  display: none;
+}
+
+.country {
+  display: none;
+}
+
 .canada-icon {
   display: block;
   margin-left: auto;
@@ -57,6 +69,64 @@
 
 footer {
   padding: 1.063rem 4.65rem;
+  text-align: center;
   background: #F1F0F0;
   color: #A9A9A9;
+}
+
+@media only screen and (min-width : 1280px){
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-main {
+    order: 1;
+    min-width: 26rem;
+  }
+
+  .country {
+    display: flex;
+    margin-bottom: 3.298rem;
+  }
+
+  .your-country {
+    align-self: center;
+  }
+
+  .canada-icon {
+    margin-bottom: 0;
+    margin-left: 1.75rem;
+  }
+
+  .footer-blocks {
+    display: none;
+  }
+
+  .footer-link {
+    display: flex;
+    justify-content: space-between;
+    min-width: 26rem;
+    margin-right: 17.375rem;
+  }
+
+  .footer-link ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-link li {
+    margin: 1rem 0;
+  }
+
+}
+
+@media only screen and (min-width : 1920px){
+
+  .footer-link {
+    margin-right: 22.75rem;
+  }
+
 }
