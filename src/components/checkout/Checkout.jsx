@@ -4,6 +4,7 @@ import Payment from './Payment';
 import Shipping from './Shipping';
 import Delivery from './Delivery';
 import Review from './Review';
+import Info from './Info';
 import Footer from '../Footer';
 import '../../styles/App.css';
 import '../../styles/checkout/checkout.css';
@@ -17,6 +18,7 @@ function Checkout() {
       <Shipping />
       <Delivery />
       <Review />
+      <Info />
       <Footer />
       {/* <h1>This is the Checkout Page!!!</h1> */}
     </div>
