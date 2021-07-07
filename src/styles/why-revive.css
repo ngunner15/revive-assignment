@@ -1,8 +1,4 @@
 .why-revive {
-  margin-bottom: 3.125rem;
-}
-
-.why-revive-title {
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
@@ -12,32 +8,31 @@
   max-width: 90%;
 }
 
-.pusateris {
-  margin: 6.35rem 0;
-  display: flex;
-  flex-direction: column;
+@media only screen and (min-width : 1280px){
+
+  .why-revive {
+    margin: 3rem 10rem 0 10rem;
+    flex-direction: row;
+  }
+
+  .why-revive-content {
+    align-self: center;
+    margin-left: 2rem;
+  }
+
+  .why-revive p {
+    max-width: 33.688rem;
+  }
 }
 
-.pusateris h3 {
-  align-self: center;
-  margin-bottom: 2.625rem;
-}
+@media only screen and (min-width : 1920px){
 
-.pusateris img {
-  max-width: 135px;
-  align-self: center;
-}
+  .why-revive {
+    margin: 6rem 24.313rem 0 24.313rem;
+  }
 
-.information {
-  background: #F1F0F0;
-  padding: 1.75rem;
-}
+  .why-revive-content {
+    margin-left: 4.938rem;
+  }
 
-.info-block {
-  display: flex;
-}
-
-.info-block h4 {
-  margin-left: 1.5rem;
-  align-self: center;
 }

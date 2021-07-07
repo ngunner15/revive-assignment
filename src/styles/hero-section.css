@@ -16,3 +16,47 @@
 h2 {
   font-size: 30px;
 }
+
+@media only screen and (min-width : 1280px) {
+
+  .hero {
+    background: url("../images/image1lp.png");
+    background-color: #f6f4f5e5;
+    background-repeat: no-repeat;
+    background-position: top right;
+    min-height: 400px;
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .hero h2, .hero p {
+    margin-left: 15rem;
+  }
+
+  .hero p {
+    max-width: 25rem;
+  }
+
+}
+
+@media only screen and (min-width : 1920px) {
+
+  .hero {
+    background: url("../images/image2lp.png"), url("../images/image1lp.png");
+    background-color: #f6f4f5e5;
+    background-repeat: repeat, no-repeat;
+    background-position: top right;
+    min-height: 452px;
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  .hero h2, .hero p {
+    margin-left: 31rem;
+  }
+
+  .hero p {
+    max-width: 39.25rem;
+  }
+
+}

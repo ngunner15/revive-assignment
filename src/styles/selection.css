@@ -48,3 +48,27 @@
   white-space: nowrap;
   margin: 1.5rem 0 2rem 0;
 }
+
+@media only screen and (min-width : 1280px){
+
+  .selection {
+    margin: 0 10rem;
+  }
+
+  .selection-box img {
+    padding: 2.5rem;
+  }
+
+}
+
+@media only screen and (min-width : 1920px){
+
+  .selection {
+    margin: 0 24.313rem;
+  }
+
+  .selection-box img {
+    padding: 5rem;
+  }
+
+}

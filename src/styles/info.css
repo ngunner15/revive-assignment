@@ -1,0 +1,80 @@
+.info {
+  margin-bottom: 3.125rem;
+  padding: 0;
+}
+
+.pusateris {
+  padding: 0 1rem;
+  margin: 6.35rem 0;
+}
+
+.find-us {
+  text-align: center;
+}
+
+.find-us span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.pusateris-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.pusateris h3 {
+  align-self: center;
+  margin-bottom: 2.625rem;
+}
+
+.pusateris img {
+  max-width: 135px;
+  align-self: center;
+}
+
+.info-images {
+  background: #F1F0F0;
+  padding: 1.75rem;
+}
+
+.info-block {
+  display: flex;
+}
+
+.info-block h4 {
+  margin-left: 1.5rem;
+  align-self: center;
+}
+
+@media only screen and (min-width : 1280px){
+
+  .find-us span::before {
+    content: none;
+  }
+
+  .pusateris-images {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .info-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+  }
+
+  .info-images img {
+    align-self: center;
+    max-width: 7.5rem;
+  }
+
+  .info-block {
+    flex-direction: column;
+    max-width: 14rem;
+  }
+
+  .info-block h4 {
+    margin: 0;
+  }
+
+}
