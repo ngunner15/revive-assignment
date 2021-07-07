@@ -16,7 +16,8 @@ const options = [
 
 export default function Selection(props) {
 
-  const [selectedOption, setSelectedOption] = useState();
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [error, setError] = useState(false);
 
   // logic to show Items onClick
   const [showItems, setShowItems] = useState(false)
@@ -32,13 +33,17 @@ export default function Selection(props) {
   // send price and number of cups to Checkout Page
   let history = useHistory();
   const redirect = () => {
-    history.push({
-      pathname: '/checkout',
-      state: {
-        pricePerCup: pricePerCup,
-        totalCups: selectedOption.value
-      }
-    });
+    if (selectedOption === null) {
+      setError(true);
+    } else {
+      history.push({
+        pathname: '/checkout',
+        state: {
+          pricePerCup: pricePerCup,
+          totalCups: selectedOption.value
+        }
+      });
+    }
   }
 
 
@@ -85,6 +90,7 @@ export default function Selection(props) {
       </div>
       {showItems ? <Items /> : null}
       <button className="selection-button continue-button" onClick={redirect}><strong>Continue</strong></button>
+      {error ? <p>Select Quantity of Cups!!!</p> : null}
       <p className="selection-email">For bulk orders over 288 cups, please email:<br /> <u>wholesale@revivesuperfoods.com</u></p>
     </div>
   );
