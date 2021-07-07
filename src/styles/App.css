@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -35,4 +35,12 @@ p {
 
 input {
   padding: 1rem 0 1rem 1rem;
+}
+
+@media only screen and (min-width : 1920px){
+
+  h3 {
+    font-size: 30px;
+  }
+
 }
