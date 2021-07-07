@@ -1,7 +1,14 @@
+import { useLocation } from 'react-router-dom';
 import Number from '../Number';
 import '../../styles/checkout/review.css';
 
 export default function Review(props) {
+
+  const location = useLocation();
+  // console.log(`The Number:${location.state}`);
+  let finalPrice = (location.state.pricePerCup * location.state.totalCups);
+  const roundAccurately = Math.round(finalPrice * 100) / 100;
+  
   return (
     <div className="review">
       <div className="title">
@@ -25,7 +32,7 @@ export default function Review(props) {
         </div>
         <div className="review-content">
           <span>Subtotal</span>
-          <p className="right-side"><strong>$63.00</strong></p>
+          <p className="right-side"><strong>${roundAccurately}</strong></p>
         </div>
       </div>
       <div className="review-confirmation">
