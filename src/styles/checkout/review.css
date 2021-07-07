@@ -45,13 +45,6 @@
   font-size: 16px;
 }
 
-/* .review-msg {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-} */
-
 .review-msg p {
   width: 100%;
   font-size: 12px;
