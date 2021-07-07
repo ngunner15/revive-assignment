@@ -17,14 +17,22 @@ export default function Selection(props) {
 
   const [selectedOption, setSelectedOption] = useState();
 
+  const pricePerCup = 5.49;
+
   const handleChange = selectedOption => {
-    setSelectedOption({ selectedOption });
+    setSelectedOption(selectedOption);
     console.log(`Option selected:`, selectedOption);
   };
 
   let history = useHistory();
   const redirect = () => {
-    history.push('/checkout');
+    history.push({
+      pathname: '/checkout',
+      state: {
+        pricePerCup: pricePerCup,
+        totalCups: selectedOption.value
+      }
+    });
   }
 
 
@@ -46,7 +54,7 @@ export default function Selection(props) {
         />
       </div>
       <div className="selection-price">
-        <p>Price per cup: <strong>$5.49</strong></p>
+        <p>Price per cup: <strong>${pricePerCup}</strong></p>
       </div>
       <div className="title">
         <Number number="2" />
