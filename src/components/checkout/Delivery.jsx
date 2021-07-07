@@ -22,7 +22,7 @@ export default function Delivery(props) {
       />
       <label htmlFor="delivery">Delivery Instructions</label>
       <select name="delivery" id="delivery">
-        <option value="" disabled selected hidden>None</option>
+        <option value="">None</option>
         <option value="1">Leave with concierge</option>
         <option value="2">Leave on front porch</option>
         <option value="3">Leave at front door</option>
