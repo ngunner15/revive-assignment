@@ -9,7 +9,7 @@ export default function Footer(props) {
           <img src="logo.png" className="footer-logo" alt="Revive Superfoods" />
           <p className="join-our"><strong>JOIN OUR MAILING LIST FOR NEWS<span> AND DISCOUNTS</span></strong></p>
           <div className="email-block">
-            <input type="email" placeholder="Email Address"></input>
+            <input type="email" placeholder="Email Address" />
             <div className="email-block-icons">
               <img src="logo/instagram.png" alt="Instagram Icon" />
               <img src="logo/facebook.png" alt="Facebook Icon" />
