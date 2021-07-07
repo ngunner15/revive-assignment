@@ -37,16 +37,6 @@ export default function Review(props) {
         <p><strong>You can skip or pause a delivery any time!</strong></p>
         <p>*Just be sure to make any changes before 9 AM on Thursdays. For holidays, expect your order to be delivered a day later or earlier. We will email you with tracking information to track your order - no hassles!</p>
       </div>
-      <div className="review-info">
-        <div className="review-info-block">
-          <img src="/review1.png" alt="customer support"></img>
-          <img src="/review2.png" alt="change cups"></img>
-        </div>
-        <div className="review-info-block">
-          <img src="/review3.png" alt="skip delivery"></img>
-          <img src="/review4.png" alt="change plan"></img>
-        </div>
-      </div>
     </div>
   );
 }
